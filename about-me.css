@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(25, 192, 248);
+  background-color: rgb(117, 215, 247);
 }
 header {
-  background-color: orange;
+  background-color: rgb(224, 161, 45);
   padding: 20px;
-  color: rgb(6, 6, 249);
+  color: rgb(98, 98, 241);
   text-align: center;
   font-weight: 800;
   font-size: 1.5em;
@@ -13,25 +13,32 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: aqua;
+  background-color: rgb(139, 208, 208);
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 img {
   max-width: 25%;
   height: auto;
   border: 15px solid silver;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 220px;
   justify-content: center;  
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 nav {
-  background-color: lightpink;
+  background-color: rgb(248, 200, 207);
   width: 30%;
   padding: 5px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
-  row-gap: 10px;
+  gap: 10px;
   flex-wrap: wrap;
   text-align: center;
   border-radius: 19px;
@@ -45,7 +52,7 @@ a:hover {
   text-decoration: underline;
 }
 #about-me {
-  background-color: greenyellow;
+  background-color: rgb(188, 241, 109);
   color: rgb(133, 133, 221);
   font-style: oblique;
   text-align: center;
@@ -53,7 +60,7 @@ a:hover {
   border-radius: 10px;
 }
 #introduction {
-  background-color: rgb(25, 226, 159);
+  background-color: rgb(124, 214, 184);
   color: rgb(219, 61, 61);
   font-style: normal;
   text-align: center;
@@ -61,22 +68,25 @@ a:hover {
   border-radius: 10px;
 }
 #my-interests {
-  background-color: rgb(233, 83, 205);
-  color: rgb(98, 240, 21);
+  background-color: rgb(220, 162, 209);
+  color: rgb(51, 44, 166);
   font-style: italic;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
 }
 #my-travels {
-  background-color: rgb(244, 80, 80);
-  color: rgb(12, 252, 12);
+  background-color: rgb(218, 137, 137);
+  color: rgb(63, 116, 63);
   font-style: normal;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
 }
 #favorite-things {
+  display: flex;
+  align-items: flex-end;
+  gap: 20re;
   background-color: rgb(242, 242, 140);
   color: darkblue;
   font-style: normal;
