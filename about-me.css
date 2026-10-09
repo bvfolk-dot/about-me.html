@@ -97,7 +97,17 @@ a:hover {
 ul {
   list-style-type: none;
 }
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+  }
+  #favorite-things {
+    flex-direction: column;
+    gap: 10px;
+  }
+  main {
+    padding: 10px;
+  }
   #about-me,
   #introduction,
   #my-interests,
